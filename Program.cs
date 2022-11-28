@@ -11,16 +11,22 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            int playerHealth;
-            bool isFlying;
-            string userSurname;
-            byte smallNumber;
-            float enemyDamage;
-            char locationType;
-            uint maxScore;
-            long countryBudget;
-            ushort moveSpeed;
-            double minValue;
+            string userName;
+            int userAge;
+            string userCity;
+            string userWork;
+
+            Console.WriteLine("Здравствуйте! Расскажите о себе: ");
+            Console.Write("Как вас зовут?: ");
+            userName = Console.ReadLine();
+            Console.Write("Сколько вам лет?: ");
+            userAge = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Из какого вы города?: ");
+            userCity = Console.ReadLine();
+            Console.Write("Где вы работаете?: ");
+            userWork = Console.ReadLine();
+            Console.WriteLine("Вас зовут " + userName + " Ваш возраст " + userAge + " лет, вы из города " + userCity + " вы работаете " + userWork );
+            Console.ReadKey();
         }
     }
 }
