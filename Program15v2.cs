@@ -13,7 +13,7 @@ namespace ConsoleApp16
             int minNumber = 1;
             int maxNumber = 28;
             int minNumberOfThrees = 100;
-            int maxNumberOfThrees = 999;
+            int maxNumberOfThrees = 1000;
 
             Random random = new Random();
             int counterOfNumbers = 0;
