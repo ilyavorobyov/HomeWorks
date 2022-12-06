@@ -13,6 +13,7 @@ namespace ConsoleApp18
             int number = ReadNumber();
             Console.WriteLine("Итоговое число: " + number);
         }
+        
         static int ReadNumber()
         {
             int inputInt = 0;
