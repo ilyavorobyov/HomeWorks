@@ -31,8 +31,8 @@ namespace ConsoleApp18
                     {
                         maxNumber = array[i, j];
                     }
-
                 }
+                
                 Console.WriteLine();
             }
 
@@ -42,7 +42,6 @@ namespace ConsoleApp18
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-
                     if (array[i, j] == maxNumber)
                     {
                         array[i, j] = newValue;
@@ -50,6 +49,7 @@ namespace ConsoleApp18
 
                     Console.Write(array[i, j] + " ");
                 }
+                
                 Console.WriteLine();
             }
         }
