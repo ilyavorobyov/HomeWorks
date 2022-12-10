@@ -54,6 +54,7 @@ namespace ConsoleApp20
                         tempSum += arrayElement;
                         sumArray = tempSum;
                     }
+                    
                     Console.WriteLine("сумма чисел массива = " + sumArray);
                 }
                 else
