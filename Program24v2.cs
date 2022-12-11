@@ -12,10 +12,10 @@ namespace ConsoleApp18
         static void Main(string[] args)
         {
             Dictionary<string, string> countries = new Dictionary<string, string>();
-
             AddWords(countries);
             FindDefinitionByWord(countries);
         }
+        
         static void AddWords(Dictionary<string, string> countries)
         {
             countries.Add("Россия", "Москва");
