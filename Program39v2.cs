@@ -62,6 +62,7 @@ namespace ConsoleApp42
                         break;
                 }
             }
+            
             Console.WriteLine(exitText);
         }
     }
