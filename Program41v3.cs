@@ -14,16 +14,16 @@ namespace ConsoleApp64
 
     class Shop
     {
-        const string ShowSalesmanGoodsCommand = "1";
-        const string SellProductCommand = "2";
-        const string ShowPlayerGoodsCommand = "3";
-        const string ExitCommand = "4";
-
         private Player _player = new Player(100);
         private SalesMan _salesMan = new SalesMan(0);
 
         public void Work()
         {
+            const string ShowSalesmanGoodsCommand = "1";
+            const string SellProductCommand = "2";
+            const string ShowPlayerGoodsCommand = "3";
+            const string ExitCommand = "4";
+            
             string errorInput = "Введена неверная команда, попробуй ещё раз";
             string exitText = "Выполнение программы завершено";
             bool isWork = true;
