@@ -40,7 +40,6 @@ namespace ConsoleApp64
                 {
                     case ShowSalesmanGoodsCommand:
                         _salesMan.ShowAllGoods();
-                        Console.ReadKey();
                         break;
 
                     case SellProductCommand:
