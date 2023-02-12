@@ -108,7 +108,6 @@ namespace Zoo
             _number = enclosureNumber;
             _description = description;
             _numberOfAnimals = numberOfAnimals;
-
             FillWithAnimals();
         }
 
