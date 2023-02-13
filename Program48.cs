@@ -7,7 +7,8 @@ namespace supermarket
     {
         static void Main(string[] args)
         {
-            Supermarket supermarket = new Supermarket();
+            Queue<Buyer> buyers = new Queue<Buyer>();
+            Supermarket supermarket = new Supermarket(buyers);
             supermarket.Work();
         }
     }
@@ -15,11 +16,12 @@ namespace supermarket
     class Supermarket
     {
         private List<Product> _productsAssortment = new List<Product>();
-        private Queue<Buyer> _buyers = new Queue<Buyer>();
+        private Queue<Buyer> _buyers;
         private int _money = 0;
 
-        public Supermarket()
+        public Supermarket(Queue<Buyer> buyers)
         {
+            _buyers = buyers;
             AddRangeOfProducts();
             CreateClientQueue();
         }
