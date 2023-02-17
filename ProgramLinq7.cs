@@ -33,7 +33,7 @@ namespace two_lists_with_soldiers_linq
             ShowList(_firstPlatoonOfSoldiers);
             Console.WriteLine("\nВторой отряд: ");
             ShowList(_secondPlatoonOfSoldiers);
-            Console.WriteLine("\nНажмите любую кнопку для перемещения солдат в другой звод по признаку");
+            Console.WriteLine("\nНажмите любую кнопку для перемещения солдат в другой взвод по признаку");
             Console.ReadKey(); 
             _secondPlatoonOfSoldiers = _secondPlatoonOfSoldiers.Union(_firstPlatoonOfSoldiers.Where(soldier => soldier.Name.ToUpper().StartsWith(firstLetter))).ToList();
             _firstPlatoonOfSoldiers = _firstPlatoonOfSoldiers.Except(_secondPlatoonOfSoldiers).ToList();
