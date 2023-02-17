@@ -15,8 +15,7 @@ namespace trainconfig
     class StationManager
     {
         private List<Train> _trains = new List<Train>();
-       // private string _newRoute;
-
+     
         public void ShowManagerPanel()
         {
             const string CreateNewRouteCommand = "1";
