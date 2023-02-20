@@ -33,7 +33,6 @@ namespace Zoo
 
             string exitText = "Выход из программы успешно выполнен.";
             string errorText = "Ошибка. Введена неправильная команда. Попробуй ещё раз";
-
             bool isWork = true;
 
             while (isWork)
