@@ -13,8 +13,6 @@ namespace ConsoleApp12
         {
             int pictures = 52;
             int rowCapacity = 3;
-            int number = 7;
-            int number = 2;
 
             int numberOfCompleteRows = pictures / rowCapacity;
             int picturesWithoutRow = pictures % rowCapacity;
