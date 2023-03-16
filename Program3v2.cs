@@ -19,5 +19,10 @@ namespace ConsoleApp12
             
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
         }
+
+        private void TestingNewBranch()
+        {
+            Console.WriteLine("Изменения из новой ветки");
+        }
     }
 }
