@@ -16,9 +16,21 @@ namespace ConsoleApp12
 
             int numberOfCompleteRows = pictures / rowCapacity;
             int picturesWithoutRow = pictures % rowCapacity;
-            Console.WriteLine("Ветка main");
+            
+            Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
+            Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
             Console.WriteLine("Слияние изменений");
+        }
+
+        private void TestingNewBranch()
+        {
+            Console.WriteLine("Изменения из новой ветки");
+        }
+
+        private void TestingNewBranch2()
+        {
+            Console.WriteLine("Изменения из новой ветки2");
         }
     }
 }
