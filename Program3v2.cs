@@ -20,17 +20,12 @@ namespace ConsoleApp12
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
-            Console.WriteLine("Слияние изменений");
+            Console.WriteLine("Слияние изменений2");
         }
 
         private void TestingNewBranch()
         {
             Console.WriteLine("Изменения из новой ветки");
-        }
-
-        private void TestingNewBranch2()
-        {
-            Console.WriteLine("Изменения из новой ветки2");
         }
     }
 }
