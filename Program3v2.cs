@@ -17,6 +17,7 @@ namespace ConsoleApp12
             int numberOfCompleteRows = pictures / rowCapacity;
             int picturesWithoutRow = pictures % rowCapacity;
 
+            
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
         }
 
