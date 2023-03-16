@@ -18,6 +18,7 @@ namespace ConsoleApp12
             int picturesWithoutRow = pictures % rowCapacity;
             Console.WriteLine("Ветка main");
             Console.WriteLine("Полностью заполненных рядов картинок: "  + numberOfCompleteRows + " , а картинок без ряда осталось: " + picturesWithoutRow);
+            Console.WriteLine("Слияние изменений");
         }
     }
 }
