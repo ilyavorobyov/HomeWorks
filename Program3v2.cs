@@ -24,5 +24,10 @@ namespace ConsoleApp12
         {
             Console.WriteLine("Изменения из новой ветки");
         }
+
+        private void TestingNewBranch2()
+        {
+            Console.WriteLine("Изменения из новой ветки2");
+        }
     }
 }
